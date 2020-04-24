@@ -15,8 +15,8 @@ bot.on('ready', async () =>{
 });
 
 bot.on('message', async message => {
-    if(message.author.bot) return ;// Vérifie si le message viens d'un utilisateur et non du bot
-    if(message.channel.type === 'dm') return ;// Vérifie si les messages viennent d'un channel et non des messages privés
+    if(message.author.bot) return ;
+    if(message.channel.type === 'dm') return ;
 
     let prefix = config.prefix;
     let messageArray = message.content.split(" ");
