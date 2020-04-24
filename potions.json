@@ -1,0 +1,78 @@
+{
+    "list" : "Swiftness\nSlowness\nJumpboost\nStrength\nHealing\nHarming\nPoison\nRegeneration\nFire Resistance\nWater Breathing\nNight vision\nInvisibility\nTurtle Master\nSlow Falling\nWeakness",
+    "swiftness" : {
+        "description" : "Potion of Swiftness",
+        "thumbnail" : "https://vignette.wikia.nocookie.net/minecraft/images/1/13/PotionOfSwiftnessNew.png/revision/latest?cb=20200116035527",
+        "brewing" : "Swiftness : Water bottle > Nether wart > Sugar\nSwiftness + : Water bottle > Nether wart > Sugar > Redstone\nSwiftness II : Water bottle > Nether wart > Sugar > Glowstone"
+    },
+    "slowness" : {
+        "description" : "Potion of Slowness",
+        "thumbnail" : "https://vignette.wikia.nocookie.net/minecraft/images/2/28/PotionOfSlownessNew.png/revision/latest?cb=20200116040134",
+        "brewing" : "Slowness : Water bottle > Nether wart Sugar > Fermented spider eye\nSlowness + : Water bottle > Nether wart > Sugar > Fermented spider eye > Redstone\nSlowness II : Water bottle > Nether wart > Sugar > Fermented spider eye > Glowstone"
+    },
+    "jumpboost" : {
+        "description" : "Potion of Jumpboost",
+        "thumbnail" : "https://gamepedia.cursecdn.com/minecraft_gamepedia/1/16/Potion_of_Leaping_Revision_1.png?version=99fe8706bb613668e5c2f67faa0e3aad",
+        "brewing" : "Jumpboost : Water bottle > Nether wart > Rabbit's foot\nJumpboost + : Water bottle > Nether wart > Rabbit's foot > Redstone\nJumpboost II : Water bottle > Nether wart > Rabbit's foot > Glowstone"
+    },
+    "strength" : {
+        "description" : "Potion of Strength",
+        "thumbnail" : "https://vignette.wikia.nocookie.net/minecraft/images/9/95/PotionOfStrengthNew.png/revision/latest?cb=20200116040715",
+        "brewing" : "Strength : Water bottle > Nether wart > Blaze powder\nStength + : Water bottle > Nether wart > Blaze powder > Redstone\nStrength II : Water bottle > Nether wart > Blaze powder > Glowstone"
+    },
+    "healing" : {
+        "description" : "Potion of Healing",
+        "thumbnail" : "https://vignette.wikia.nocookie.net/minecraft/images/4/4a/PotionOfHealing.png/revision/latest?cb=20200116035850",
+        "brewing" : "Healing : Water bottle > Nether wart > Glistering Melon Slice\nHealing II : Water bottle > Nether wart > Glistering Melon Slice > Glowstone"
+    },
+    "harming" : {
+        "description" : "Potion of Harming",
+        "thumbnail" : "https://vignette.wikia.nocookie.net/minecraft/images/5/51/PotionOfHarmingNew.png/revision/latest?cb=20200116035800",
+        "brewing" : "Harming : Water bottle > Nether wart > Spider eye > Fermented spider eye\nHarming II : Water bottle > Nether wart > Spider eye > Fermented spider eye > Glowstone"
+    },
+    "poison" : {
+        "description" : "Potion of Poison",
+        "thumbnail" : "https://vignette.wikia.nocookie.net/minecraft/images/3/38/PotionOfPoisonNew.png/revision/latest?cb=20200116035935",
+        "brewing" : "Poison : Water bottle > Nether wart > Spider eye\nPoison + : Water bottle > Nether wart > Spider eye > Redstone\nPoison II : Water bottle > Nether wart > Spider eye > Glowstone"
+    },
+    "regeneration" : {
+        "description" : "Potion of Regeneration",
+        "thumbnail" : "https://vignette.wikia.nocookie.net/minecraft/images/f/ff/PotionOfRegenerationNew.png/revision/latest?cb=20200116040029",
+        "brewing" : "Regeneration : Water bottle > Nether wart > Ghast tear\nRegeneration + : Water bottle > Nether wart > Ghast tear > Redstone\nRegeneration II : Water bottle > Nether wart > Ghast tear > Glowstone"
+    },
+    "fire resistance" : {
+        "description" : "Potion of Fire Resistance",
+        "thumbnail" : "https://vignette.wikia.nocookie.net/minecraft/images/e/ea/PotionOfFireResistanceNew.png/revision/latest?cb=20200116035706",
+        "brewing" : "Fire Resistance : Water bottle > Nether wart > Magma cream\nFire Resistance + : Water bottle > Nether wart > Magma cream > Redstone"
+    },
+    "water breathing" : {
+        "description" : "Potion of Water Breathing",
+        "thumbnail" : "https://vignette.wikia.nocookie.net/minecraft/images/e/ed/PotionOfWaterBreathingNew.png/revision/latest?cb=20200116041312",
+        "brewing" : "Water Breathing : Water bottle > Nether wart > Pufferfish\nWater Breathing + : Water bottle > Nether wart > Pufferfish > Redstone"
+    },
+    "night vision" : {
+        "description" : "Potion of Night Vision",
+        "thumbnail" : "https://vignette.wikia.nocookie.net/minecraft/images/c/c4/PotionOfNightVisionNew.png/revision/latest?cb=20200116041133",
+        "brewing" : "Night vision : Water bottle > Nether wart > Golden carrot\nNight vision + : Water bottle > Nether wart > Golden carrot > Redstone"
+    },
+    "invisibility" : {
+        "description" : "Potion of Invisibility",
+        "thumbnail" : "https://vignette.wikia.nocookie.net/minecraft/images/0/04/PotionOfInvisibilityNew.png/revision/latest?cb=20200116042617",
+        "brewing" : "Invisibility : Water bottle > Nether wart > Golden carrot > Fermented spider eye\nInvisibility + : Water bottle > Nether wart > Golden carrot > Fermented spider eye > Redstone"
+    },
+    "turtle master" : {
+        "description" : "Potion of Turtle Master",
+        "thumbnail" : "https://vignette.wikia.nocookie.net/minecraft/images/e/e9/PotionOfTurtleMasterNew.png/revision/latest?cb=20200116042521",
+        "brewing" : "Turtle Master : Water bottle > Nether wart > Turtle shell\nTurtle Master + : Water bottle > Nether wart > Turtle shell > Redstone\nTurtle Master II : Water bottle > Nether wart > Turtle shell > Glowstone"
+    },
+    "slow falling" : {
+        "description" : "Potion of Slow Falling",
+        "thumbnail" : "https://vignette.wikia.nocookie.net/minecraft/images/b/bf/PotionOfSlowFallingNew.png/revision/latest?cb=20200116042148",
+        "brewing" : "Slow Falling : Water bottle > Nether wart > Phantom membrame\nSlow Falling + : Water bottle > Nether wart > Phantom membrame > Redstone"
+    },
+    "weakness" : {
+        "description" : "Potiono of Weakness",
+        "thumbnail" : "https://vignette.wikia.nocookie.net/minecraft/images/7/7a/PotionOfWeaknessNew.png/revision/latest?cb=20200116051402",
+        "brewing" : "Weakness : Water bottle > Fermented spider eye\nWeakness + : Water bottle > Fermented spider eye > Redstone"
+    }
+}
