@@ -43,7 +43,7 @@ bot.on('message', async message => {
         let req = new XMLHttpRequest();
 
         req.open("GET", `https://api.jsonbin.io/v3/b/${BIN_ID}/latest`, true);
-        req.setRequestHeader("X-Master-Key", config.key);
+        req.setRequestHeader("X-Master-Key", process.env.key);
         req.onreadystatechange = function() {
             if (this.readyState==4 && this.status==200){
                 let data = JSON.parse(req.responseText)["record"];
@@ -144,7 +144,7 @@ bot.on('message', async message => {
 
                     push.open("PUT", `https://api.jsonbin.io/v3/b/${BIN_ID}`, true);
                     push.setRequestHeader("Content-Type", "application/json");
-                    push.setRequestHeader("X-Master-Key", config.key);
+                    push.setRequestHeader("X-Master-Key", process.env.key);
                     push.send(modifiedData);
                 }
             }
@@ -184,4 +184,4 @@ bot.on('message', async message => {
 
 });
 
-bot.login(config.token);
+bot.login(process.env.token);
