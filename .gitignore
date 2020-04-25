@@ -1,2 +1,3 @@
 # the config.json file contains secret information
 config.json
+node_modules/

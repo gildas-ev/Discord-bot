@@ -7,7 +7,8 @@ const Discord = require('discord.js')
 const bot = new Discord.Client({disableEveryone: true});
 var XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;
 
-var BIN_ID = "5e9ee6f5435f5604bb4560d0";
+var BIN_ID = '5e9ee6f5435f5604bb4560d0';
+var prefix = '!';
 
 bot.on('ready', async () =>{
     console.log(`Logged as ${bot.user.tag}.`)
@@ -18,7 +19,6 @@ bot.on('message', async message => {
     if(message.author.bot) return ;// Vérifie si le message viens d'un utilisateur et non du bot
     if(message.channel.type === 'dm') return ;// Vérifie si les messages viennent d'un channel et non des messages privés
 
-    let prefix = config.prefix;
     let messageArray = message.content.split(" ");
     let command = messageArray[0];
     let args = messageArray.slice(1);
